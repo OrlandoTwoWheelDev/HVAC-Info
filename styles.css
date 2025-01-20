@@ -6,10 +6,23 @@ header{
 display: flex;
 flex-direction: column;
 align-items: center;
+padding-bottom: 10px;
+border-style: outset; background-color: aquamarine;
 }
 
 a{
   border-style: outset;
   border-color: black;
-  background-color: chartreuse;
+  background-color: seashell;
+  text-decoration: none;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  border-style: groove; border-color: seashell;
+  padding: 5px; background-color: antiquewhite;
 }
